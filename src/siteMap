@@ -3,18 +3,14 @@ src/
      └── java/
          ├── POM/                ← page classes (inherit BaseClass)
          │    ├── LoginPage.java
-         │    ├── HomePage.java
-         │    └── ProfilePage.java
+         │    ├── HomePage.java (TBD)
+         │    └── ProfilePage.java (TBD)
          ├── Utility/            ← framework backbone
          │    ├── BaseClass.java         ← contains config, locators, driver
-         │    ├── WebDriverLaunch.java   ← threadlocal driver setup
-         │    ├── ConfigReader.java      ← optional, config-related utils
-         │    └── DataReader.java        ← future test data reader
          ├── CucumberFeatures/   ← .feature files
      └── resources/
          ├── config.properties
          ├── locators.properties
-         └── TestData/
  └── test/
      └── java/
          ├── StepDefs/           ← glue code
