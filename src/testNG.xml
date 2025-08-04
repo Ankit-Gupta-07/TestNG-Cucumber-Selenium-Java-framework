@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNgRun" parallel="classes" thread-count="2"> 
+<test name="Run1">
+    <classes>
+        <class name="Runner.runner1"></class>
+        <class name="Runner.runner2"></class>
+    </classes>
+</test>
+</suite>
